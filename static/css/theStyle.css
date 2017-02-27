@@ -180,3 +180,60 @@ div {
 
 #highlightOptions {
 }
+
+/*********************************************************************/
+OVERLAY
+/********************************************************************/
+
+.keyname
+ {
+    font-size: 3em;
+     margin: 560px 0 0 0;
+     position: absolute;
+ }
+
+.lStraightKey .keyname {
+	color: #33ecff;
+    margin: 427px 0 0 0;
+    width: var(--midWidth);
+	text-shadow: 2px 2px 0 #1F7E7E;
+    z-index: 1;
+}
+
+.blackKey .keyname {
+    font-size: 1.8em;
+	color: #33ecff;
+    margin: 227px 0 0 0;
+    width: var(--blackKeyWidth);
+	text-shadow: 1px 1px 0 #1F7E7E;
+}
+
+.highlightBlackKey .keyname {
+    background: var(--highlightColor);
+    font-size: 1.8em;
+    color: #33ecff;
+    margin: 227px 0 0 0;
+    width: var(--blackKeyWidth);
+    text-shadow: 1px 1px 0 #1F7E7E;
+}
+
+.cutKey .keyname {
+	color: #33ecff;
+    width: var(--thinWidth);
+    margin: 427px 0 0 0;
+	text-shadow: 2px 2px 0 #1F7E7E;
+    z-index: 1;
+}
+
+.rStraightKey .keyname {
+	color: #33ecff;
+    margin: 427px 0 0 0;
+    width: var(--midWidth);
+	text-shadow: 2px 2px 0 #1F7E7E;
+    z-index: 1;
+}
+
+div.blackKey div.keyname
+ {
+	margin-left: 0px;
+}
