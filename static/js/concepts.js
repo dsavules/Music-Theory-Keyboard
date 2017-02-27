@@ -544,3 +544,22 @@ function noteProgression(count, input) {
 		}
 	}, globalTempo);
 }
+
+//---------------------------------------------------
+// Toggle Key Names function
+//----------------------------------------------------
+
+ function toggleKeyNames(input)
+{
+      var mydiv = document.getElementsByClassName(input);
+        var i;
+        for (i = 0; i < mydiv.length; i++)
+        {
+            if (mydiv[i].style.display == 'none')
+            {
+                mydiv[i].style.display = 'block';
+             } else {
+                    mydiv[i].style.display = 'none';
+                     }
+          }
+}
